@@ -37,3 +37,12 @@
 |☔️ [part 2] Binding of RxCocoa|21.09.01|`RxCocoa`, `Bind`|[🎫](https://github.com/Taehyeon-Kim/Go-RxSwift/blob/master/%5BPart2%5DBinding-Of-RxCocoa.md)|
 |☔️ [part 3] Traits of RxCocoa|21.09.01|`RxCocoa`, `Traits`, `Drive`|[🎫](https://github.com/Taehyeon-Kim/Go-RxSwift/blob/master/%5BPart3%5DTraits-Of-RxCocoa.md)|
 |☔️ [part 4] RxCocoa 실습하기|-|`RxCocoa`, `Sample Code`|[🎫](https://github.com/Taehyeon-Kim/Go-RxSwift/blob/master/%5BPart3%5DTraits-Of-RxCocoa.md)|
+
+<br />
+
+## 💥 실습하기
+|제목|태그|링크|
+|--|--|--|
+|💥 메모앱 만들기|`RxMemo` `MVVM` `Coordinator`|[🎫](https://github.com/Taehyeon-Kim/RxMemo)|
+
+
