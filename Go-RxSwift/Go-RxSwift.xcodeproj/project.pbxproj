@@ -14,6 +14,7 @@
 		BDD9602C290694E9006A1D15 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = BDD9602B290694E9006A1D15 /* RxCocoa */; };
 		BDD9602E290694E9006A1D15 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BDD9602D290694E9006A1D15 /* RxSwift */; };
 		BDD96032290695F0006A1D15 /* PickerExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD96031290695F0006A1D15 /* PickerExampleViewController.swift */; };
+		BDD960352906A368006A1D15 /* NumbersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD960342906A368006A1D15 /* NumbersViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		BD022297290693CD00B07322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDD960292906946A006A1D15 /* RxSample.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RxSample.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BDD96031290695F0006A1D15 /* PickerExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerExampleViewController.swift; sourceTree = "<group>"; };
+		BDD960342906A368006A1D15 /* NumbersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			children = (
 				BDD9602F2906954B006A1D15 /* App */,
 				BDD96030290695C7006A1D15 /* PickerView */,
+				BDD960332906A342006A1D15 /* CombineLatest */,
 			);
 			path = "Go-RxSwift";
 			sourceTree = "<group>";
@@ -84,6 +87,14 @@
 				BDD96031290695F0006A1D15 /* PickerExampleViewController.swift */,
 			);
 			path = PickerView;
+			sourceTree = "<group>";
+		};
+		BDD960332906A342006A1D15 /* CombineLatest */ = {
+			isa = PBXGroup;
+			children = (
+				BDD960342906A368006A1D15 /* NumbersViewController.swift */,
+			);
+			path = CombineLatest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDD96032290695F0006A1D15 /* PickerExampleViewController.swift in Sources */,
+				BDD960352906A368006A1D15 /* NumbersViewController.swift in Sources */,
 				BD02228A290693CB00B07322 /* AppDelegate.swift in Sources */,
 				BD02228C290693CB00B07322 /* SceneDelegate.swift in Sources */,
 			);
