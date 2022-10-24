@@ -84,7 +84,7 @@ extension NumbersViewController {
             // 그 이유는 Int 타입이 반환되어야 하는데,
             // 각각의 TextField에 "" 값이 들어오게 되면 계산 자체를 할 수가 없기 때문이다.
             
-            return Int(val1) ?? 0 + Int(val2) ?? 0 + Int(val3) ?? 0
+            return (Int(val1) ?? 0) + (Int(val2) ?? 0) + (Int(val3) ?? 0)
         }
         .map { $0.description }
         .bind(to: resultLabel.rx.text)
