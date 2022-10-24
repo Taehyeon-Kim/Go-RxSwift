@@ -15,6 +15,8 @@
 		BDD9602E290694E9006A1D15 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BDD9602D290694E9006A1D15 /* RxSwift */; };
 		BDD96032290695F0006A1D15 /* PickerExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD96031290695F0006A1D15 /* PickerExampleViewController.swift */; };
 		BDD960352906A368006A1D15 /* NumbersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD960342906A368006A1D15 /* NumbersViewController.swift */; };
+		BDD960402906C267006A1D15 /* ValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD9603F2906C267006A1D15 /* ValidationViewController.swift */; };
+		BDD960452906C648006A1D15 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = BDD960442906C648006A1D15 /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,7 @@
 		BDD960292906946A006A1D15 /* RxSample.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RxSample.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BDD96031290695F0006A1D15 /* PickerExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerExampleViewController.swift; sourceTree = "<group>"; };
 		BDD960342906A368006A1D15 /* NumbersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersViewController.swift; sourceTree = "<group>"; };
+		BDD9603F2906C267006A1D15 /* ValidationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDD960452906C648006A1D15 /* SnapKit in Frameworks */,
 				BDD9602E290694E9006A1D15 /* RxSwift in Frameworks */,
 				BDD9602C290694E9006A1D15 /* RxCocoa in Frameworks */,
 			);
@@ -63,8 +67,9 @@
 			isa = PBXGroup;
 			children = (
 				BDD9602F2906954B006A1D15 /* App */,
-				BDD96030290695C7006A1D15 /* PickerView */,
 				BDD960332906A342006A1D15 /* CombineLatest */,
+				BDD96030290695C7006A1D15 /* PickerView */,
+				BDD9603E2906C24D006A1D15 /* Validation */,
 			);
 			path = "Go-RxSwift";
 			sourceTree = "<group>";
@@ -97,6 +102,14 @@
 			path = CombineLatest;
 			sourceTree = "<group>";
 		};
+		BDD9603E2906C24D006A1D15 /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				BDD9603F2906C267006A1D15 /* ValidationViewController.swift */,
+			);
+			path = Validation;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -116,6 +129,7 @@
 			packageProductDependencies = (
 				BDD9602B290694E9006A1D15 /* RxCocoa */,
 				BDD9602D290694E9006A1D15 /* RxSwift */,
+				BDD960442906C648006A1D15 /* SnapKit */,
 			);
 			productName = "Go-RxSwift";
 			productReference = BD022286290693CB00B07322 /* Go-RxSwift.app */;
@@ -147,6 +161,7 @@
 			mainGroup = BD02227D290693CB00B07322;
 			packageReferences = (
 				BDD9602A290694E9006A1D15 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				BDD960432906C648006A1D15 /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			productRefGroup = BD022287290693CB00B07322 /* Products */;
 			projectDirPath = "";
@@ -178,6 +193,7 @@
 				BDD960352906A368006A1D15 /* NumbersViewController.swift in Sources */,
 				BD02228A290693CB00B07322 /* AppDelegate.swift in Sources */,
 				BD02228C290693CB00B07322 /* SceneDelegate.swift in Sources */,
+				BDD960402906C267006A1D15 /* ValidationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +411,14 @@
 				minimumVersion = 6.0.0;
 			};
 		};
+		BDD960432906C648006A1D15 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -407,6 +431,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = BDD9602A290694E9006A1D15 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxSwift;
+		};
+		BDD960442906C648006A1D15 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BDD960432906C648006A1D15 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
